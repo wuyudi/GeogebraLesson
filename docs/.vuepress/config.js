@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/GeogebraLesson/",
   themeConfig: {
     sidebar: "auto",
     repo: "wuyudi/GeogebraLesson",
