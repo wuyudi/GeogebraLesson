@@ -12,5 +12,5 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: wuyudi/GeogebraLesson
-          BUILD_SCRIPT: yarn && yarn build
+          BUILD_SCRIPT: yarn && yarn build:docs
           BUILD_DIR: docs/.vuepress/dist/
